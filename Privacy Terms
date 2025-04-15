@@ -12,7 +12,8 @@ Last Updated: [21.3.2025]
 [UwU-Bot] collects the following data:
 -Server-ID and Role-ID
 -Message content (only for the execution of commands, not stored)
--User-ID (only when using UwU-Coins-related commands, for tracking balances)
+-User-ID (for features like UwU-Coins and Leveling System)
+-Time soent by a user in a voice channel (for the Leveling System)
 
 #2. Why We Collect Data
 -We collect this data to ensure the proper operation of the bot.
@@ -20,12 +21,13 @@ Last Updated: [21.3.2025]
 -Ping server-specific roles
 -Provide moderation features
 -Track UwU-Coins balances to add or deduct coins accordingly
+-Calculate and display user levels based on their activity and time spent in channels
 
 #3. Data Storage
 -We do not store any personal data permanently.
 -Temporary data (such as command content) is deleted immediately after processing.
--If data (excluding the User-ID, Server-ID and Role-ID) is stored, it is only for the purpose of improving functionality and is deleted after [3 months].
--We do not store any personal data permanently.
+-User-ID, Server-ID, and Role-ID may be stored for functionality purposes
+-Time spent in chennels is logged to comute and display user levels
 -User-IDs related to UwU-Coins are stored solely for tracking balances and ensuring correct functionality.
 -UwU-Coins have no real-world monetary value.
 
